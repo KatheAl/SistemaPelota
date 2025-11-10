@@ -1,4 +1,4 @@
-const NP = 10;
+const NP = 100;
 let pelotas = [];
 
 function setup() {
