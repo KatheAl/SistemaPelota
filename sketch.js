@@ -8,13 +8,13 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   rectMode(CENTER);
   for (let i = 0; i < NP; i++) {
-    pelota = new Pelota
+    pelota = new Pelota()
     pelotas.push(pelota);
-    rectangulo = new Pelota
+    rectangulo = new Pelota()
     rectangulos.push(rectangulo);
-    cuadrado = new Pelota
+    cuadrado = new Pelota()
     cuadrados.push(cuadrado);
-    elipse = new Pelota
+    elipse = new Pelota()
     elipses.push(elipse);
   }
   
